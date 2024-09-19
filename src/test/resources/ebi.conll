@@ -1,0 +1,35 @@
+# sent_id = 1
+# text = At EMBL’s European Bioinformatics Institute (EMBL-EBI), we help scientists realise the potential of big data in biology, exploiting complex information to make discoveries that benefit humankind
+1       At      at      ADP     IN      _       14      prep    _       _
+2       EMBL    EMBL    PROPN   NNP     Number=Sing     6       poss    _       SpaceAfter=No
+3       ’s      ’s      PART    POS     _       2       case    _       _
+4       European        European        PROPN   NNP     Number=Sing     6       compound        _       _
+5       Bioinformatics  Bioinformatics  PROPN   NNP     Number=Sing     6       compound        _       _
+6       Institute       Institute       PROPN   NNP     Number=Sing     1       pobj    _       _
+7       (       (       PUNCT   -LRB-   PunctSide=Ini|PunctType=Brck    6       punct   _       SpaceAfter=No
+8       EMBL    EMBL    PROPN   NNP     Number=Sing     10      compound        _       SpaceAfter=No
+9       -       -       PUNCT   HYPH    PunctType=Dash  8       punct   _       SpaceAfter=No
+10      EBI     EBI     PROPN   NNP     Number=Sing     6       appos   _       SpaceAfter=No
+11      )       )       PUNCT   -RRB-   PunctSide=Fin|PunctType=Brck    6       punct   _       SpaceAfter=No
+12      ,       ,       PUNCT   ,       PunctType=Comm  14      punct   _       _
+13      we      we      PRON    PRP     Case=Nom|Number=Plur|Person=1|PronType=Prs      14      nsubj   _       _
+14      help    help    VERB    VBP     Tense=Pres|VerbForm=Fin 0       ROOT    _       _
+15      scientists      scientist       NOUN    NNS     Number=Plur     16      nsubj   _       _
+16      realise realise VERB    VBP     Tense=Pres|VerbForm=Fin 14      ccomp   _       _
+17      the     the     DET     DT      Definite=Def|PronType=Art       18      det     _       _
+18      potential       potential       NOUN    NN      Number=Sing     16      dobj    _       _
+19      of      of      ADP     IN      _       18      prep    _       _
+20      big     big     ADJ     JJ      Degree=Pos      21      amod    _       _
+21      data    datum   NOUN    NNS     Number=Plur     19      pobj    _       _
+22      in      in      ADP     IN      _       21      prep    _       _
+23      biology biology NOUN    NN      Number=Sing     22      pobj    _       SpaceAfter=No
+24      ,       ,       PUNCT   ,       PunctType=Comm  16      punct   _       _
+25      exploiting      exploit VERB    VBG     Aspect=Prog|Tense=Pres|VerbForm=Part    16      advcl   _       _
+26      complex complex ADJ     JJ      Degree=Pos      27      amod    _       _
+27      information     information     NOUN    NN      Number=Sing     25      dobj    _       _
+28      to      to      PART    TO      _       29      aux     _       _
+29      make    make    VERB    VB      VerbForm=Inf    25      advcl   _       _
+30      discoveries     discovery       NOUN    NNS     Number=Plur     29      dobj    _       _
+31      that    that    PRON    WDT     PronType=Rel    32      nsubj   _       _
+32      benefit benefit VERB    VBP     Tense=Pres|VerbForm=Fin 30      relcl   _       _
+33      humankind       humankind       NOUN    NN      Number=Sing     32      dobj    _       SpaceAfter=No
