@@ -13,7 +13,7 @@
 | **LEMMA**  | The base or dictionary form of the word. For instance, the lemma of "running" is "run."            |
 | **UPOS**   | The universal part-of-speech tag that indicates the grammatical category of the word, such as NOUN (noun), VERB (verb), or ADJ (adjective). |
 | **XPOS**   | The specific part-of-speech tag used in the original text or corpus, which might be more detailed or language-specific. |
-| **FEATS**  | Additional grammatical features or attributes of the word, such as tense, number, or case. This provides extra details about the word’s role in the sentence and are delimted by the pipe sign `\|`.|
+| **FEATS**  | Additional grammatical features or attributes of the word, such as tense, number, or case. This provides extra details about the word’s role in the sentence and are delimited by the pipe sign `\|`.|
 | **HEAD**   | The ID of the word that is the syntactic head of the current word. For example, in the phrase "the cat sleeps," "sleeps" would be the head of "cat." |
 | **DEPREL** | The type of grammatical relationship between the word and its head. For example, "det" for determiner or "nsubj" for nominal subject. |
 | **DEPS**   | (Optional) A list of additional dependencies, if there are multiple relations or connections.        |
